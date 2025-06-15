@@ -1,0 +1,20 @@
+cd /home/student/Dokumenty    (brak możliwości edytowania w /home)
+mkdir egzamin
+chmod 700 egzamin
+cd /home/student/Dokumenty/egzamin
+touch pracownicy.csv
+echo "id,imię,nazwisko,stanowisko" > pracownicy.csv
+nano pracownicy.csv
+cat pracownicy.csv
+touch .backup.csv
+ls -a
+find /var -type f -name "*log*"
+find / -type d -name "*lib*" > libs.txt
+tail -n +2 pracownicy.csv | sort -t',' -k3 > .backup.csv
+nl .backup.csv > .backup2.csv
+diff .backup.csv .backup2.csv
+sed -i 's/,/;/g' .backup.csv
+sed -n '/inżynier/p' pracownicy.csv
+
+
+

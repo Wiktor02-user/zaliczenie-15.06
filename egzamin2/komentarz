@@ -1,0 +1,7 @@
+reporzytorium git nie było zainstalowane
+
+ptzy komendzie sudo apt install git wyskakuje
+
+E: Nie udało się pobrać http://security.ubuntu.com/ubuntu/pool/main/g/git/git-man_2.43.0-1ubuntu7.1_all.deb  404  Not Found [IP: 185.125.190.82 80]
+E: Nie udało się pobrać http://security.ubuntu.com/ubuntu/pool/main/g/git/git_2.43.0-1ubuntu7.1_amd64.deb  404  Not Found [IP: 185.125.190.82 80]
+E: Nie udało się pobrać niektórych archiwów, proszę spróbować uruchomić apt-get update lub użyć opcji --fix-missing.
